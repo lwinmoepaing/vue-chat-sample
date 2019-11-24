@@ -32,7 +32,10 @@
 		"env": {
 			"node": true
 		},
-		"extends": [ "plugin:vue/essential", "eslint:recommended" ],
+		"extends": [
+			"plugin:vue/essential",
+			"eslint:recommended"
+		],
 		"rules": {
 			"no-console": "off",
 			"no-debugger": "off"
@@ -46,5 +49,8 @@
 			"autoprefixer": {}
 		}
 	},
-	"browserslist": [ "> 1%", "last 2 versions" ]
+	"browserslist": [
+		"> 1%",
+		"last 2 versions"
+	]
 }
